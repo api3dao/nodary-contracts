@@ -4,6 +4,9 @@ pragma solidity 0.8.17;
 import "./interfaces/INodaryDataFeedIdDeriver.sol";
 
 contract NodaryDataFeedIdDeriver is INodaryDataFeedIdDeriver {
+    bytes32 private constant NODARY_FEED_ENDPOINT_ID =
+        keccak256(abi.encode("Nodary", "feed"));
+
     address public immutable override nodaryAirnodeAddress;
 
     constructor(address _nodaryAirnodeAddress) {
@@ -13,9 +16,6 @@ contract NodaryDataFeedIdDeriver is INodaryDataFeedIdDeriver {
         );
         nodaryAirnodeAddress = _nodaryAirnodeAddress;
     }
-
-    bytes32 private constant NODARY_FEED_ENDPOINT_ID =
-        keccak256(abi.encode("Nodary", "feed"));
 
     function deriveNodaryDataFeedId(
         bytes32 feedName
