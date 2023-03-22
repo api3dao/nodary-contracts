@@ -1,3 +1,3 @@
-# Nodary data feed reader example
+# @nodary/contracts
 
 > Contracts through which Nodary services are delivered
