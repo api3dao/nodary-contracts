@@ -1,6 +1,6 @@
 {
   "name": "@nodary/contracts",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "description": "Contracts through which Nodary services are delivered",
   "scripts": {
