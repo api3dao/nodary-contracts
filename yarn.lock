@@ -22,10 +22,10 @@
   dependencies:
     "@openzeppelin/contracts" "4.8.2"
 
-"@api3/chains@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-1.2.1.tgz#04e700b7b2c0e55f275aba4b7d9db978cb459dfa"
-  integrity sha512-YLu6FJMY0q5UC705n8p2OAPmAJ00OGNW9AZQcr03PgwE8NdOYsymK+NixWljftsVgG/kdyAUbqinEyU2LguoIw==
+"@api3/chains@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-1.4.0.tgz#4ee80048f439f3def09c5e3cf12957ba9544cc65"
+  integrity sha512-eSE84gQuvH+B5hQDxO8o6XNJVyPPNRSyLiJwYcltjzz1FqjHZbttYKe16hdIQbTDObp/aL1GtZojVOGkx2sblA==
 
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
