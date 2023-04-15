@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.17;
+pragma solidity ^0.8.0;
 
 import "./interfaces/INodaryDataFeedIdDeriver.sol";
 
-contract NodaryDataFeedIdDeriver is INodaryDataFeedIdDeriver {
+abstract contract NodaryDataFeedIdDeriver is INodaryDataFeedIdDeriver {
     bytes32 private constant NODARY_FEED_ENDPOINT_ID =
         keccak256(abi.encode("Nodary", "feed"));
 
