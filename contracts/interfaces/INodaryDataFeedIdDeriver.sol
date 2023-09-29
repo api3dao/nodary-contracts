@@ -2,5 +2,5 @@
 pragma solidity ^0.8.0;
 
 interface INodaryDataFeedIdDeriver {
-    function nodaryAirnodeAddress() external view returns (address);
+    function NODARY_AIRNODE_ADDRESS() external pure returns (address);
 }
