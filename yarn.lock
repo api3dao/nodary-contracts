@@ -502,6 +502,21 @@
   resolved "https://registry.yarnpkg.com/@noble/secp256k1/-/secp256k1-1.7.1.tgz#b251c70f824ce3ca7f8dc3df08d58f005cc0507c"
   integrity sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==
 
+"@nodary/contracts@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@nodary/contracts/-/contracts-0.2.1.tgz#9562236b9577f38f4b98685abc14a970e300b239"
+  integrity sha512-RIRy9NsV7qGa2FfWMfz2Kecj8a55rLiquq9M8zfnMIxdqtZhHXftrfmtiXL4kfLS8PHDWbN1UuFglnC1MGR/lg==
+  dependencies:
+    "@api3/airnode-protocol-v1" "^2.10.0"
+
+"@nodary/testnet-usdc@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@nodary/testnet-usdc/-/testnet-usdc-0.1.1.tgz#4ab2b91af08910019b732d23fb0fd396c28d2c7d"
+  integrity sha512-9ceaDZzousXMqA4vZmDGGXniPfwcEEFSJXHuOOJeWHdCtbFgFvTARTo98Yqiko69xEFYoqemf8428oJu2zHbWQ==
+  dependencies:
+    "@nodary/contracts" "^0.2.1"
+    "@openzeppelin/contracts" "^4.9.3"
+
 "@nodary/utilities@^0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@nodary/utilities/-/utilities-0.8.0.tgz#86645c54fb3922066e3dddb1f4179b07b1d6d867"
@@ -777,6 +792,11 @@
   version "4.8.2"
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.8.2.tgz#d815ade0027b50beb9bcca67143c6bcc3e3923d6"
   integrity sha512-kEUOgPQszC0fSYWpbh2kT94ltOJwj1qfT2DWo+zVttmGmf97JZ99LspePNaeeaLhCImaHVeBbjaQFZQn7+Zc5g==
+
+"@openzeppelin/contracts@^4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.9.3.tgz#00d7a8cf35a475b160b3f0293a6403c511099364"
+  integrity sha512-He3LieZ1pP2TNt5JbkPA4PNT9WC3gOTOlDcFGJW4Le4QKqwmiNJCRt44APfxMxvq7OugU/cqYuPcSBzOw38DAg==
 
 "@scure/base@~1.1.0":
   version "1.1.1"

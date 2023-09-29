@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@api3/chains": "^3.5.1",
+    "@nodary/testnet-usdc": "^0.1.1",
     "@nodary/utilities": "^0.8.0",
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
