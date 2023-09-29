@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "license": "MIT",
   "description": "Contracts through which Nodary services are delivered",
+  "files": [
+    "contracts"
+  ],
   "scripts": {
     "build": "hardhat compile",
     "deploy:deterministic": "DETERMINISTIC=true hardhat deploy --network $NETWORK",
