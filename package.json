@@ -9,8 +9,7 @@
   ],
   "scripts": {
     "build": "hardhat compile",
-    "deploy:deterministic": "DETERMINISTIC=true hardhat deploy --network $NETWORK",
-    "deploy:undeterministic": "hardhat deploy --network $NETWORK",
+    "deploy": "hardhat deploy --network $NETWORK",
     "lint": "yarn run prettier:check && yarn run lint:eslint && yarn run lint:solhint",
     "lint:solhint": "solhint ./contracts/**/*.sol",
     "lint:eslint": "eslint . --ext .js,.ts",
