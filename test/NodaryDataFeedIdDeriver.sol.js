@@ -17,6 +17,16 @@ describe('NodaryDataFeedIdDeriver', function () {
     };
   }
 
+  describe('deriveNodaryTemplateId', function () {
+    it('derives Nodary template ID', async function () {
+      const { nodaryDataFeedIdDeriver } = await helpers.loadFixture(deploy);
+      const decodedDapiName = 'ETH/USD';
+      expect(
+        await nodaryDataFeedIdDeriver.externalDeriveNodaryTemplateId(ethers.utils.formatBytes32String(decodedDapiName))
+      ).to.equal(nodaryUtilities.computeTemplateId(decodedDapiName));
+    });
+  });
+
   describe('deriveNodaryDataFeedId', function () {
     it('derives Nodary data feed ID', async function () {
       const { nodaryDataFeedIdDeriver } = await helpers.loadFixture(deploy);

@@ -10,18 +10,24 @@ abstract contract NodaryDataFeedIdDeriver is INodaryDataFeedIdDeriver {
     bytes32 private constant NODARY_FEED_ENDPOINT_ID =
         keccak256(abi.encode("Nodary", "feed"));
 
+    function deriveNodaryTemplateId(
+        bytes32 feedName
+    ) internal pure returns (bytes32 templateId) {
+        templateId = keccak256(
+            abi.encodePacked(
+                NODARY_FEED_ENDPOINT_ID,
+                abi.encode(bytes32("1s"), bytes32("name"), feedName)
+            )
+        );
+    }
+
     function deriveNodaryDataFeedId(
         bytes32 feedName
     ) internal pure returns (bytes32 dataFeedId) {
         dataFeedId = keccak256(
             abi.encodePacked(
                 NODARY_AIRNODE_ADDRESS,
-                keccak256(
-                    abi.encodePacked(
-                        NODARY_FEED_ENDPOINT_ID,
-                        abi.encode(bytes32("1s"), bytes32("name"), feedName)
-                    )
-                )
+                deriveNodaryTemplateId(feedName)
             )
         );
     }
