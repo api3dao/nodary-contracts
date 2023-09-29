@@ -22,10 +22,12 @@
   dependencies:
     "@openzeppelin/contracts" "4.8.2"
 
-"@api3/chains@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-1.4.0.tgz#4ee80048f439f3def09c5e3cf12957ba9544cc65"
-  integrity sha512-eSE84gQuvH+B5hQDxO8o6XNJVyPPNRSyLiJwYcltjzz1FqjHZbttYKe16hdIQbTDObp/aL1GtZojVOGkx2sblA==
+"@api3/chains@^3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@api3/chains/-/chains-3.5.1.tgz#daf14bffb4fcae1916c197ca66b7942dcf86d13b"
+  integrity sha512-AI1/FbLsqJlSiGIEKMMRLCKaV6r6B7uXHBfzVJPY95rIdiHbmwUEGmlD4ikFTsV3nKDO0YDGm7NDnlmPW0aVJQ==
+  dependencies:
+    zod "^3.22.2"
 
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
@@ -5510,3 +5512,8 @@ zksync-web3@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/zksync-web3/-/zksync-web3-0.8.1.tgz#db289d8f6caf61f4d5ddc471fa3448d93208dc14"
   integrity sha512-1A4aHPQ3MyuGjpv5X/8pVEN+MdZqMjfVmiweQSRjOlklXYu65wT9BGEOtCmMs5d3gIvLp4ssfTeuR5OCKOD2kw==
+
+zod@^3.22.2:
+  version "3.22.2"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.2.tgz#3add8c682b7077c05ac6f979fea6998b573e157b"
+  integrity sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==
