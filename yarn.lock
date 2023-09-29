@@ -23,10 +23,10 @@
     ethers "^5.7.2"
     lodash "^4.17.21"
 
-"@api3/airnode-protocol-v1@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@api3/airnode-protocol-v1/-/airnode-protocol-v1-2.0.1.tgz#92466a6f3e4793e5916487d265f6113f06e1d3bd"
-  integrity sha512-2VguhLrJ7g0nyaEtnAF29dxom/cqAEiI4CtONWEEAbe6Tc1IvBjVGP9WrJ/U19cFGAZPr++FoTdyW8J+5WbHOA==
+"@api3/airnode-protocol-v1@^2.10.0":
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@api3/airnode-protocol-v1/-/airnode-protocol-v1-2.10.0.tgz#b03cf02c7b65eed5b57cd37e24d91dbcbff62da6"
+  integrity sha512-5pXI9OUXeyM2IbVYrkW48Eymt7qGT5nfBU8GR2XZsRE8dCRZTIIfp+xdAMH+OFm62GGnUDz9e1uTiAHkRWrtKA==
   dependencies:
     "@openzeppelin/contracts" "4.8.2"
 
